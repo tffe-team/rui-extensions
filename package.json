@@ -24,13 +24,6 @@
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"languages": [
-      {
-        "id": "ruiext",
-        "aliases": ["ruiext"],
-        "extensions": [".vue", ".html", ".ts"]
-      }
-    ],
 		"commands": [
 			{
 				"command": "extension.rui",
@@ -39,9 +32,17 @@
 		],
 		"snippets": [
       {
-        "language": "ruiext",
+        "language": "vue",
         "path": "./snippets/html.json"
       },
+			{
+        "language": "html",
+        "path": "./snippets/html.json"
+			},
+			{
+        "language": "typescript",
+        "path": "./snippets/html.json"
+			},
 			{
         "language": "scss",
         "path": "./snippets/scss.json"

@@ -4,7 +4,7 @@
 
 ## Known Issues
 
-https://github.com/tffe-team/rui-extensions/issues
+<https://github.com/tffe-team/rui-extensions/issues>
 
 ## Release Notes
 
