@@ -1,0 +1,91 @@
+{
+  "rui-header": {
+    "prefix": "rui-header",
+    "scope": "scss",
+    "body": [
+      "@include rui-header(",
+      "    \\$name:\"loan\",",
+      "    \\$bgcolor:#4988db",
+      ");"
+    ]
+  },
+  "rui-list": {
+    "prefix": "rui-list",
+    "scope": "scss",
+    "body": [
+      "@include rui-list(",
+      "    \\$name : \"loan\",",
+      "    \\$bgcolor: #fff,",
+      "    \\$font-size: .14rem,",
+      "    \\$has-last-border : false,",
+      "    \\$border-color: #c7c8cc,",
+      "    \\$color: #666,",
+      "    \\$item-padding : .05rem,",
+      "    \\$item-border-width: 0 0 1px,",
+      "    \\$active-bgcolor: #eee,",
+      "    \\$label-padding: 0 .05rem",
+      "){",
+      "    .checked{",
+      "        color: #5c99ea;",
+      "        font-size: .22rem",
+      "    }",
+      "};"
+    ]
+  },
+  "rui-badge": {
+    "prefix": "rui-badge",
+    "scope": "scss",
+    "body": [
+      "@include rui-badge(",
+      "    \\$name : \"test2\",",
+      "    \\$bgcolor: green,",
+      "    \\$color: #fff,",
+      "    \\$radius: 50%,",
+      "    \\$font-size: .14rem,",
+      "    \\$border-color: green",
+      ");"
+    ]
+  },
+  "rui-btn": {
+    "prefix": "rui-btn",
+    "scope": "scss",
+    "body": [
+      "@include rui-btn(",
+      "    \\$name: \"search\",",
+      "    \\$border-width: 0,",
+      "    \\$border-color: #fd8007,",
+      "    \\$bgcolor: #fd8007,",
+      "    \\$active-bgcolor : #e37307,",
+      "    \\$active-border-color: #e37307",
+      ");"
+    ]
+  },
+  "rui-input": {
+    "prefix": "rui-input",
+    "scope": "scss",
+    "body": [
+      "@include rui-input(",
+      "    \\$name: \"spc\",",
+      "    \\$width: 3rem,",
+      "    \\$padding : 0 .05rem,",
+      "    \\$color: #6c6c6c,",
+      "    \\$bgcolor: #fff,",
+      "    \\$placeholder-color: #cbcbcb,",
+      "    \\$radius: .05rem ",
+      ");"
+    ]
+  },
+  "rui-loading": {
+    "prefix": "rui-loading",
+    "scope": "scss",
+    "body": [
+      "@include rui-loading(",
+      "    \\$name : \"test2\",",
+      "    \\$bgcolor: #bbb,",
+      "    \\$ico-color: #fff",
+      "){",
+      "    position: static;",
+      "};"
+    ]
+  }
+}

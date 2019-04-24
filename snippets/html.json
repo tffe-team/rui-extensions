@@ -1,0 +1,162 @@
+{
+  "rui-header-html": {
+    "prefix": "rui-header-html",
+    "body": [
+      "<header class='rui-header'></header>"
+    ]
+  },
+  "rui-list-html": {
+    "prefix": "rui-list-html",
+    "body": [
+      "<ul class=\"rui-list\">",
+      "        <li class=\"item\">",
+      "            <div class=\"label\">选择</div>",
+      "            <div class=\"label flex\">标题在这里展示在这里在这里</div>",
+      "        </li>",
+      "        <li class=\"item\">",
+      "            <div class=\"label\">选择</div>",
+      "            <div class=\"label flex\">标题在这里展示在这里在这里</div>",
+      "        </li>",
+      "        <li class=\"item\">",
+      "            <div class=\"label\">选择</div>",
+      "            <div class=\"label flex\">标题在这里展示在这里在这里</div>",
+      "        </li>",
+      "    </ul>"
+    ]
+  },
+  "rui-badge-html": {
+    "prefix": "rui-badge-html",
+    "body": [
+      "<span class=\"rui-badge\">test</span>"
+    ]
+  },
+  "rui-btn-html": {
+    "prefix": "rui-btn-html",
+    "body": [
+      "<div class=\"rui-btn rui-btn-stacked rui-btn-login\">登录</div>"
+    ]
+  },
+  "rui-checked-html": {
+    "prefix": "rui-checked-html",
+    "body": [
+      "<label class=\"rui-checked rui-checked-d\">",
+      "  <input type=\"radio\" name=\"testd\" />",
+      "  <span class=\"type\"></span>",
+      "</label>"
+    ]
+  },
+  "rui-ico-html": {
+    "prefix": "rui-ico-html",
+    "body": [
+      "<div>",
+      "   <i class=\"rui-ico\">&#xe900;</i>",
+      "    <div>&amp;#xe900;</div>",
+      "</div>"
+    ]
+  },
+  
+  "rui-input-html": {
+    "prefix": "rui-input-html",
+    "body": [
+      "<input tyle=\"text\" placeholder=\"必须为中文\" class=\"rui-input\"/>"
+    ]
+  },
+
+  "rui-loading-html": {
+    "prefix": "rui-loading-html",
+    "body": [
+      "<div class=\"rui-loading rui-loading-test1\">",
+      "        <div class=\"inner\">",
+      "            <i class=\"rui-ico\"></i>",
+      "        </div>",
+      "</div>"
+    ]
+  },
+  "rui-dialog-html": {
+    "prefix": "rui-dialog-html",
+    "body": [
+      " <div class=\"rui-dialog\">",
+      "      <header class=\"hd\">",
+      "          <h2 class=\"title\">title</h2>",
+      "      </header>",
+      "      <div class=\"bd\">content</div>",
+      "      <footer class=\"ft\">",
+      "        <button class=\"rui-btn rui-btn-dialog rui-btn-l\">取消</button>",
+      "        <button class=\"rui-btn rui-btn-dialog rui-btn-l\">确定</button>",
+      "      </footer>",
+      "</div>"
+    ]
+  },
+  "rui-picker-html": {
+    "prefix": "rui-picker-html",
+    "body": [
+      "<div class=\"rui-picker\"><span class=\"mask\"></span>",
+      "    <ul class=\"list\">",
+      "      <li class=\"item\">1</li>",
+      "      <li class=\"item\">2</li>",
+      "      <li class=\"item\">3</li>",
+      "      <li class=\"item\">4</li>",
+      "      <li class=\"item\">5</li>",
+      "      <li class=\"item\">6</li>",
+      "      <li class=\"item\">7</li>",
+      "    </ul>",
+      "  </div>"
+    ]
+  },
+  "rui-popup-html": {
+    "prefix": "rui-popup-html",
+    "body": [
+      "<div class=\"rui-modal rui-modal-bottom\">",
+      "    <div class=\"cont rui-popup\">",
+      "      <header class=\"hd rui-header\">",
+      "        <h3 class=\"title\">日期选择</h3>",
+      "        <div class=\"regret\">取消</div>",
+      "        <div class=\"affirm\">确定</div>",
+      "      </header>",
+      "      <div class=\"bd\">",
+      "        <div class=\"rui-picker\"><span class=\"mask\"></span>",
+      "          <ul class=\"list\">",
+      "            <li class=\"item\">1</li>",
+      "            <li class=\"item\">2</li>",
+      "            <li class=\"item\">3</li>",
+      "            <li class=\"item\">4</li>",
+      "            <li class=\"item\">5</li>",
+      "            <li class=\"item\">6</li>",
+      "            <li class=\"item\">7</li>",
+      "          </ul>",
+      "        </div>",
+      "      </div>",
+      "    </div>",
+      "  </div>"
+    ]
+  },
+  "rui-totast-html": {
+    "prefix": "rui-totast-html",
+    "body": [
+      "<div class=\"rui-toast\">",
+      "   验证失败，请重新再试",
+      "</div>"
+    ]
+  },
+  "rui-flex-html": {
+    "prefix": "rui-flex-html",
+    "body": [
+      "<div class=\"rui-flex\">",
+      "    <div class=\"flex\">",
+      "    </div>",
+      "</div>"
+    ]
+  },
+  "rui-tab-html": {
+    "prefix": "rui-tab-html",
+    "body": [
+      "<ul class=\"rui-tab\">",
+      "    <li class=\"item item-on\">贷款</li>",
+      "    <li class=\"item\">房贷</li>",
+      "    <li class=\"item\">车贷</li>",
+      "    <li class=\"item\">信用卡</li>",
+      "    <li class=\"item\">理财</li>",
+      "</ul>"
+    ]
+  }
+}
